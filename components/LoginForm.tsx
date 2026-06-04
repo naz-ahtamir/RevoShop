@@ -25,7 +25,7 @@ export function LoginForm() {
     });
     setLoading(false);
     if (res?.error) {
-      setError("Email atau password salah");
+      setError("Incorrect email or password");
       return;
     }
     router.push(callbackUrl);
@@ -35,7 +35,7 @@ export function LoginForm() {
   return (
     <div className="mx-auto max-w-md rounded-2xl border border-[var(--gray-200)] bg-white p-8">
       <h1 className="display-md mb-2 text-[var(--black)]">Login</h1>
-      <p className="mb-6 text-sm text-[var(--black)]">Masuk ke akun RevoShop Anda</p>
+      <p className="mb-6 text-sm text-[var(--black)]">Sign in to your RevoShop account</p>
       <form onSubmit={handleSubmit} className="space-y-4">
         {error && (
           <p className="rounded-lg bg-red-50 px-3 py-2 text-sm text-red-700">{error}</p>
@@ -65,7 +65,7 @@ export function LoginForm() {
         </button>
       </form>
       <p className="mt-6 text-center text-sm text-[var(--black)]">
-        Belum punya akun?{" "}
+        Don’t have an account?{" "}
         <Link href="/register" className="font-semibold text-[var(--orange)] hover:underline">
           Register
         </Link>

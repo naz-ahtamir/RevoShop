@@ -24,7 +24,7 @@ export function RegisterForm() {
     });
     const data = await res.json();
     if (!res.ok) {
-      setError(data.error ?? "Registrasi gagal");
+      setError(data.error ?? "Registration failed");
       setLoading(false);
       return;
     }
@@ -36,14 +36,14 @@ export function RegisterForm() {
 
   return (
     <div className="mx-auto max-w-md rounded-2xl border border-[var(--gray-200)] bg-white p-8">
-      <h1 className="display-md mb-2 text-[var(--black)]">Register</h1>
-      <p className="mb-6 text-sm text-[var(--black)]">Buat akun customer baru</p>
+      <h1 className="display-md mb-2 text-[var(--black)]">Create Account</h1>
+      <p className="mb-6 text-sm text-[var(--black)]">Sign up for a new account</p>
       <form onSubmit={handleSubmit} className="space-y-4">
         {error && (
           <p className="rounded-lg bg-red-50 px-3 py-2 text-sm text-red-700">{error}</p>
         )}
         <div>
-          <label className="mb-1 block text-sm font-medium text-[var(--black)]">Nama</label>
+          <label className="mb-1 block text-sm font-medium text-[var(--black)]">Name</label>
           <input
             type="text"
             required
@@ -78,7 +78,7 @@ export function RegisterForm() {
         </button>
       </form>
       <p className="mt-6 text-center text-sm text-[var(--black)]">
-        Sudah punya akun?{" "}
+        Already have an account?{" "}
         <Link href="/login" className="font-semibold text-[var(--orange)] hover:underline">
           Login
         </Link>
