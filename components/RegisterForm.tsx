@@ -36,7 +36,7 @@ export function RegisterForm() {
 
   return (
     <div className="mx-auto max-w-md rounded-2xl border border-[var(--gray-200)] bg-white p-8">
-      <h1 className="display-md mb-2 text-[var(--black)]">Create Account</h1>
+      <h1 className="display-md mb-2 text-[var(--black)]">Register</h1>
       <p className="mb-6 text-sm text-[var(--black)]">Sign up for a new account</p>
       <form onSubmit={handleSubmit} className="space-y-4">
         {error && (
