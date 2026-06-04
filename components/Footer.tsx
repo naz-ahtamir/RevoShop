@@ -53,10 +53,10 @@ export function Footer() {
           <div>
             <div className="mb-4 text-xs font-bold uppercase tracking-wider text-[var(--black)]">Contact</div>
             <div className="space-y-2 text-sm text-[var(--black)]">
-              <p>Jl. Biring Romang Raya, Kota Makassar Kode Pos 90234</p>
+              <p>Jl. Keselamatan No. 1, Indonesia</p>               
               <p>0822-2071-5073</p>
-              <p>www.naz-ahtamir.site</p>
               <p>Mon-Sat : 08:00 – 17:00 WITA</p>
+              <a href="https://www.naz-ahtamir.site/"><p className="font-bold">www.naz-ahtamir.site</p></a>              
             </div>
           </div>
         </div>

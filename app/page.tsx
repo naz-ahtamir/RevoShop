@@ -107,14 +107,15 @@ export default function HomePage() {
                   href={`/products?category=${encodeURIComponent(c.name)}`}
                   className="rounded-2xl border-[1.5px] border-[var(--gray-200)] bg-white p-6 text-center transition-all hover:-translate-y-1 hover:border-[var(--orange)] hover:shadow-lg"
                 >
-                  <div className="mx-auto mb-3 flex h-14 w-14 items-center justify-center rounded-xl bg-[var(--gray-100)] text-2xl">
-                    {c.icon}
+                  <div className="mx-auto mb-3 flex h-14 w-14 items-center justify-center rounded-xl bg-[var(--gray-100)]">
+                    <c.Icon className="h-11 w-11 text-[var(--orange)]" />   {/* ✅ pakai JSX */}
                   </div>
                   <div className="text-sm font-bold text-[var(--black)]">{c.name}</div>
                   <div className="mt-1 text-xs text-[var(--black)]">{count} Products</div>
                 </Link>
               );
             })}
+
           </div>
         </div>
       </section>
@@ -131,7 +132,7 @@ export default function HomePage() {
               key={title}
               className="rounded-2xl border-[1.5px] border-[var(--gray-200)] bg-white p-8 text-center transition-all hover:-translate-y-1 hover:border-[var(--orange)]">
               <div className="mx-auto mb-5 flex h-14 w-14 items-center justify-center rounded-xl bg-[var(--orange-pale)]">
-                <Icon className="h-7 w-7 text-[var(--orange)]" />
+                <Icon className="h-11 w-11 text-[var(--orange)]" />
               </div>
               <h3 className="mb-2 font-bold text-[var(--black)]">{title}</h3>
               <p className="text-sm text-[var(--gray-600)]">{desc}</p>
@@ -204,11 +205,9 @@ export default function HomePage() {
             {testimonials.map((t) => (
               <div
                 key={t.name}
-                className="rounded-2xl border-[1.5px] border-[var(--gray-200)] bg-white p-7"
-              >
-                <div className="mb-4 text-3xl text-[var(--orange)]">&ldquo;</div>
-                <p className="mb-5 text-sm italic text-[var(--black)]">{t.text}</p>
-                <div className="flex items-center gap-3">
+                className="rounded-2xl border-[1.5px] border-[var(--gray-200)] text-center bg-white p-7">                              
+                <p className="mb-5 text-sm italic text-[var(--black)]"> <span className="text-[var(--orange)] text-sm font-bold">&ldquo;</span>{t.text} <span className="text-[var(--orange)] font-bold text-sm">&rdquo;</span></p>                
+                <div className="flex items-center gap-3 justify-center">
                   <div className="flex h-11 w-11 items-center justify-center rounded-full bg-[var(--orange)] text-sm font-bold text-white">
                     {t.initials}
                   </div>

@@ -25,7 +25,7 @@
     "stock": 247,
     "rating": 4.8,
     "reviews": 312,
-    "imageUrl": "/images/products/3MSafetyHelmet.webp",
+    "imageUrl": "/images/products/3MSafetyHelmet.svg",
     "featured": true,
     "badge": "Best Seller"
   },
@@ -55,7 +55,7 @@
     "stock": 183,
     "rating": 4.7,
     "reviews": 256,
-    "imageUrl": "/images/products/KingsKWDShoes.webp",
+    "imageUrl": "/images/products/KingsKWDShoes.svg",
     "featured": true,
     "badge": "Top Rated"
   },
@@ -85,7 +85,7 @@
     "stock": 512,
     "rating": 4.6,
     "reviews": 189,
-    "imageUrl": "/images/products/Ansell Activarmr Gloves 97-007.webp",
+    "imageUrl": "/images/products/Ansell Activarmr Gloves 97-007.svg",
     "featured": true,
     "badge": "Popular"
   },
@@ -115,7 +115,7 @@
     "stock": 389,
     "rating": 4.5,
     "reviews": 143,
-    "imageUrl": "/images/products/Radians RVZ4 Reflective Vest.webp",
+    "imageUrl": "/images/products/Radians RVZ4 Reflective Vest.svg",
     "featured": false,
     "badge": null
   },
@@ -145,7 +145,7 @@
     "stock": 267,
     "rating": 4.7,
     "reviews": 201,
-    "imageUrl": "/images/products/Uvex 9301.105 Safety Goggles.webp",
+    "imageUrl": "/images/products/Uvex 9301.105 Safety Goggles.svg",
     "featured": true,
     "badge": "Certified"
   },
@@ -175,7 +175,7 @@
     "stock": 198,
     "rating": 4.9,
     "reviews": 445,
-    "imageUrl": "/images/products/3M 6200 Half Face Respirator.webp",
+    "imageUrl": "/images/products/3M 6200 Half Face Respirator.svg",
     "featured": true,
     "badge": "Premium"
   },
@@ -235,7 +235,7 @@
     "stock": 156,
     "rating": 4.5,
     "reviews": 112,
-    "imageUrl": "/images/products/Sellstrom S31010 Face Shield.webp",
+    "imageUrl": "/images/products/Sellstrom S31010 Face Shield.svg",
     "featured": false,
     "badge": null
   },
@@ -265,7 +265,7 @@
     "stock": 89,
     "rating": 4.8,
     "reviews": 167,
-    "imageUrl": "/images/products/Petzl VOLT Full Body Harness.webp",
+    "imageUrl": "/images/products/Petzl VOLT Full Body Harness.svg",
     "featured": true,
     "badge": "Professional"
   },
@@ -325,7 +325,7 @@
     "stock": 134,
     "rating": 4.7,
     "reviews": 203,
-    "imageUrl": "/images/products/Bata Industrials Endura Boots.webp",
+    "imageUrl": "/images/products/Bata Industrials Endura Boots.svg",
     "featured": false,
     "badge": null
   },
@@ -355,7 +355,7 @@
     "stock": 312,
     "rating": 4.6,
     "reviews": 234,
-    "imageUrl": "/images/products/MSA V-Gard 500 Vented Helmet.webp",
+    "imageUrl": "/images/products/MSA V-Gard 500 Vented Helmet.svg",
     "featured": false,
     "badge": null
   }

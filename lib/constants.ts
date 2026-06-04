@@ -1,27 +1,33 @@
+import { HardHat, Footprints, Hand, Shirt, Glasses, ShieldAlert } from "lucide-react";
+
+type Category = {
+  name: string;
+  Icon: React.ComponentType<React.SVGProps<SVGSVGElement>>;
+};
 export const categories = [
-  { name: "Safety Helmet", icon: "⛑️" },
-  { name: "Safety Shoes", icon: "👟" },
-  { name: "Safety Gloves", icon: "🧤" },
-  { name: "Reflective Vest", icon: "🦺" },
-  { name: "Safety Goggles", icon: "🥽" },
-  { name: "Respirator", icon: "😷" },
+  { name: "Safety Helmet", Icon: HardHat },
+  { name: "Safety Shoes", Icon: Footprints },
+  { name: "Safety Gloves", Icon: Hand },
+  { name: "Reflective Vest", Icon: Shirt },
+  { name: "Safety Goggles", Icon: Glasses },
+  { name: "Respirator", Icon: ShieldAlert },
 ];
 
 export const testimonials = [
   {
-    text: "RevoShop has been our primary PPE supplier for 3 years. Quality is consistently excellent and delivery is always on time. Their corporate account management is outstanding.",
+    text: " RevoShop has been our primary PPE supplier for 3 years. Quality is consistently excellent and delivery is always on time. Their corporate account management is outstanding",
     name: "Budi Santoso",
     company: "PT Semen Indonesia – HSE Manager",
     initials: "BS",
   },
   {
-    text: "The bulk pricing for our 800-person mining operation saves us significantly every quarter. Certified products give us confidence in compliance with K3 regulations.",
+    text: " The bulk pricing for our 800-person mining operation saves us significantly every quarter. Certified products give us confidence in compliance with K3 regulations",
     name: "Sarah Wijaya",
     company: "PT Vale Indonesia – Safety Director",
     initials: "SW",
   },
   {
-    text: "Fast response, genuine products, and competitive pricing. We equipped our entire 200-person construction crew through RevoShop. Highly recommended.",
+    text: " Fast response, genuine products, and competitive pricing. We equipped our entire 200-person construction crew through RevoShop. Highly recommended",
     name: "Ahmad Fauzi",
     company: "Waskita Karya – Project Manager",
     initials: "AF",
