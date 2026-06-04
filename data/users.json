@@ -1,0 +1,16 @@
+[
+  {
+    "id": "1",
+    "email": "admin@revoshop.co.id",
+    "passwordHash": "$2b$10$pCe9m2MrHK/bQQtTq8533uksDe7K4d3ccpu6/IsKzzsaC4/JWciuG",
+    "name": "Admin RevoShop",
+    "role": "ADMIN"
+  },
+  {
+    "id": "2",
+    "email": "user@example.com",
+    "passwordHash": "$2b$10$odXji35o8EfoD5H0lPfqYeTdJ4E2ZS.3O5GB3p44CfESdpWPeEZDy",
+    "name": "Demo User",
+    "role": "USER"
+  }
+]
