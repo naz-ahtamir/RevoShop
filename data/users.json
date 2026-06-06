@@ -2,14 +2,14 @@
   {
     "id": "1",
     "email": "admin@revoshop.co.id",
-    "passwordHash": "$2b$10$pCe9m2MrHK/bQQtTq8533uksDe7K4d3ccpu6/IsKzzsaC4/JWciuG",
+    "passwordHash": "$2b$10$aKu9C11EvH.KtXrcYI3l.eMCKB41wvz5MZ1wV.9tasaN/cTNh54ha",
     "name": "Admin RevoShop",
     "role": "ADMIN"
   },
   {
     "id": "2",
     "email": "user@example.com",
-    "passwordHash": "$2b$10$odXji35o8EfoD5H0lPfqYeTdJ4E2ZS.3O5GB3p44CfESdpWPeEZDy",
+    "passwordHash": "$2b$10$6AD3ipdWCwZY5bJ.SAPDROySvmin8wRHHvWHhVTa1xHxEWXlGflK2",
     "name": "Demo User",
     "role": "USER"
   }
